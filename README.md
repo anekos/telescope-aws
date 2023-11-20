@@ -19,8 +19,15 @@ require('telescope').load_extension('aws')
 ```vim
 :Telescope aws profile
 ```
+
  or 
 
 ```vim
 :Telescope aws
+```
+
+## To set `AWS_DEFAULT_REGION`
+
+```vim
+:Telescope aws region
 ```
